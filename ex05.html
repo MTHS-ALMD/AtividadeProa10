@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5</title>
+</head>
+<body>
+    <script>
+        var numero1=parseInt(window.prompt("Digite o número menor"))
+        var numero2=parseInt(window.prompt("Digite o número maior"))
+        
+        while(numero1>numero2){
+            numero1=parseInt(window.prompt("Digite o primeiro número (O primeiro número deve ser o menor que o segundo)"))
+            numero2=parseInt(window.prompt("Digite o segundo número"))
+        }
+        resultado=(numero1+numero2)/2
+        window.alert(`A média de ${numero1} e ${numero2} é igual a ${resultado}`)
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6</title>
+</head>
+<body>
+    <script>
+        var resposta="s"
+        while(resposta=="s"){
+            var numero1=parseFloat(window.prompt("Digite um número"))
+            var numero2=parseFloat(window.prompt("Digite um número"))
+
+            media=(numero1+numero2)/2
+            if(media>=9.5){
+                window.alert(`A média é igual a ${media} o aluno está aprovado.`)
+            }else{
+                window.alert(`A média é igual a ${media} o aluno está reprovado.`)
+            }
+            var resposta=window.prompt(`Deseja calcular a média de outro aluno [S/N]`)
+        }
+    </script>
+</body>
+</html>
